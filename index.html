@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tela login</title>
+</head>
+<body>
+    <div class="content">
+            <div id="login-open" onclick="openLogin()">
+                <img src="/img/account_circle-black-18dp.svg" alt="User" width="250px" height="180px">
+            </div>
+            <div id="login">
+                <h2>Login</h2>
+                <form action="">
+                    <div class="field">
+                        <label for="name">E-mail/Login</label>
+                        <input type="text" placeholder="Login" required>
+                    </div>
+                    <div class="field">
+                        <label for="password" >Senha</label>
+                        <input type="password" placeholder="Senha" required>
+                    </div>
+                    <button type="submit">LOGIN</button>
+                    <a href="http://" id="cad">CADASTRO</a>
+                </form>
+            </div>
+    </div>
+</body>
+</html>
+<script>
+    function openLogin()
+    {
+        let loginDiv = document.querySelector("#login");
+        let lgdiv = document.querySelector("#login-open");
+        loginDiv.classList.toggle("on");
+        lgdiv.classList.toggle("on");
+
+    }
+</script>
