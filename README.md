@@ -1,7 +1,7 @@
 # Front-end
 Este e um projeto e um exemplo front-end de uma hamburgueria.
 **tecnologias usadas:**
-- HTMl
+- HTML
 - CSS
 - JAVASCRIPT
 
